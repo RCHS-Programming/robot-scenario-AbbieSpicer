@@ -12,8 +12,9 @@ public class Robot extends Actor
      * Act - do whatever the Robot wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
+    public void robotMovement() 
+    
     {
-        
+       if (Greenfoot.isKeyDown("D"));
     }    
 }
