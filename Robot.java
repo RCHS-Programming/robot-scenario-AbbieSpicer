@@ -16,5 +16,15 @@ public class Robot extends Actor
     
     {
        if (Greenfoot.isKeyDown("D"));
-    }    
+  
+    }  
+    public void eatPizza()
+    {
+        if (isTouching(Pizza.class))
+        {
+            Greenfoot.playSound("eat.wav");
+            removeTouching(Pizza.class);
+        }
+    
+    }
 }
